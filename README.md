@@ -68,5 +68,6 @@ npm start
 
 ### ** Setup Backend **
 cd backend
-pip install fastapi uvicorn
+source ./venv/bin/activate
+pip install fastapi uvicorn pydantic
 uvicorn main:app --reload
